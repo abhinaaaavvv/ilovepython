@@ -6,9 +6,6 @@ chars = list(chars)
 key = chars.copy()
 random.shuffle(key)
 
-# print(chars)
-# print(key)
-
 # encryption
 plain_text = input("Enter a message to encrypt: ")
 cipher_text = ""
